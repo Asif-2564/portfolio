@@ -1,0 +1,110 @@
+/* reset style */
+*{
+    padding:0;
+    margin:0;
+    font-family: "Open Sans", sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+
+.common-btn{
+    background-color: #FD6E0A;
+    padding: 10px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    border: none;
+    cursor: pointer;
+}
+.outline-btn{
+    border: 1px solid #FD6E0A;
+    color:#FD6E0A;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container{
+    max-width: 1200px;
+    margin:auto;
+
+}
+.name{
+    font-weight: bold;
+    font-size: 30px;
+}
+.name-r{
+    color: #FD6E0A;
+    
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    padding:12px 0px;
+    
+}
+
+ul{
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+/* hero section style */
+.hero-parent-root{
+    background-color: #FFF8F3;
+}
+.hero-parent{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-left-p1{
+    font-weight: 600;
+    font-size: 30px;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+    margin-top:12px;
+}
+
+/* About Section */
+
+.parent-about-section{
+    background-color: #FFF8F3;
+    margin: 40px auto;
+    padding:30px;
+    text-align: center;
+}
+.about-box-parent{
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    margin: 20px 0px 0px;
+}
+
+.about-box-parent .box{
+    background-color: #d9a178;
+    padding: 10px;
+    border-radius: 10px;
+}
+.parent-about-section h2 p{
+    margin: 10px 10px;
+}
+
+
