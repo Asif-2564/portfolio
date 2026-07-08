@@ -108,3 +108,103 @@ ul li a {
 }
 
 
+
+/* About me section */
+.what-i-do-parent{
+    text-align: center;
+}
+.what-i-do-parent h2{
+    margin: 28px 0px;
+}
+.what-i-do-parent p{
+    padding: 20px;
+    margin: 60px auto;
+}
+.what-i-do-box{
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    gap:8px;
+}
+.what-i-do-box .what-i-do-card{
+    padding:10px;
+    border: #FD6E0A solid 2px;
+    text-align: left;
+}
+.what-i-do-box .what-i-do-card h2{
+    margin: 10px 0px;
+}
+.what-i-do-box .what-i-do-card p{
+    color:#757575;
+    font-size: 15px;
+}
+
+
+
+/* Amazing Works section */
+.amazing-works-root{
+    margin:20px auto;
+    text-align: center;
+}
+.amazing-works{
+    display:grid;
+    margin-top:20px;
+    gap:12px;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six";
+}
+.amazing-works img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+}
+.image1{
+    grid-area: one;
+}
+.image2{
+    grid-area: two;
+}
+.image3{
+    grid-area: three;
+}
+.image4{
+    grid-area: four;
+}
+.image5{
+    grid-area:five;
+}
+.image6{
+    grid-area: six;
+}
+
+/* Footer Section  */
+
+.footer-root{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-top:70px !important;
+    gap: 15px;
+    background-color:#FFF8F3;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.footer form{
+    padding:20px;
+}
+.right-footer form input,
+.right-footer form textarea {
+    outline: none;
+    border:none;
+    background-color:white;
+    padding:8px 15px;
+    border-radius: 8px;
+    display:block;
+    margin-bottom: 8px;
+    width:100%;
+}
